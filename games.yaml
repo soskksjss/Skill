@@ -1,0 +1,166 @@
+# Hindi Gaming Clipping Agent v3.0 - Per-Game Keywords & Triggers
+
+games:
+  gta6:
+    display_name: "GTA 6"
+    keywords:
+      - "liberty city"
+      - "vice city"
+      - "heist"
+      - "mission"
+      - "wasted"
+      - "busted"
+      - "police"
+      - "car"
+      - "crew"
+      - "leon"
+      - "jason"
+      - "get"
+    triggers:
+      - pattern: "heist"
+        type: "story"
+        bonus: 1.0
+      - pattern: "wasted"
+        type: "funny"
+        bonus: 0.5
+      - pattern: "busted"
+        type: "funny"
+        bonus: 0.5
+      - pattern: "police"
+        type: "rage"
+        bonus: 0.5
+      - pattern: "mission fail"
+        type: "funny"
+        bonus: 0.5
+    extra_hashtags:
+      - "#gta6"
+      - "#gtav"
+      - "#gta6clips"
+
+  bgmi:
+    display_name: "BGMI"
+    keywords:
+      - "zone"
+      - "loot"
+      - "squad"
+      - "awm"
+      - "m416"
+      - "chicken dinner"
+      - "erangel"
+      - "miramar"
+      - "sanhok"
+      - "parachute"
+      - "1v4"
+      - "headshot"
+    triggers:
+      - pattern: "chicken dinner"
+        type: "clutch"
+        bonus: 1.0
+      - pattern: "1v4"
+        type: "clutch"
+        bonus: 0.5
+      - pattern: "awm"
+        type: "skill"
+        bonus: 0.5
+      - pattern: "headshot"
+        type: "skill"
+        bonus: 0.5
+    extra_hashtags:
+      - "#bgmi"
+      - "#bgmiindia"
+      - "#chickendinner"
+
+  cod:
+    display_name: "Call of Duty"
+    keywords:
+      - "ace"
+      - "streak"
+      - "killstreak"
+      - "warzone"
+      - "dmz"
+      - "modern warfare"
+      - "cod"
+      - "codm"
+    triggers:
+      - pattern: "ace"
+        type: "clutch"
+        bonus: 1.0
+      - pattern: "killstreak"
+        type: "skill"
+        bonus: 0.5
+    extra_hashtags:
+      - "#cod"
+      - "#codm"
+      - "#warzone"
+
+  valorant:
+    display_name: "Valorant"
+    keywords:
+      - "spike"
+      - "round"
+      - "jett"
+      - "reyna"
+      - "sage"
+      - "clutch"
+      - "defuse"
+      - "plant"
+      - "1v5"
+      - "1v4"
+      - "ace"
+    triggers:
+      - pattern: "1v5"
+        type: "clutch"
+        bonus: 1.0
+      - pattern: "1v4"
+        type: "clutch"
+        bonus: 1.0
+      - pattern: "defuse"
+        type: "clutch"
+        bonus: 0.5
+      - pattern: "ace"
+        type: "clutch"
+        bonus: 1.0
+    extra_hashtags:
+      - "#valorant"
+      - "#valorantclips"
+      - "#1v5clutch"
+
+  freefire:
+    display_name: "Free Fire"
+    keywords:
+      - "booyah"
+      - "gloo wall"
+      - "character"
+      - "1v4"
+      - "free fire"
+    triggers:
+      - pattern: "booyah"
+        type: "clutch"
+        bonus: 1.0
+      - pattern: "1v4"
+        type: "clutch"
+        bonus: 0.5
+    extra_hashtags:
+      - "#freefire"
+      - "#booyah"
+
+  generic:
+    display_name: "Gaming"
+    keywords:
+      - "kill"
+      - "headshot"
+      - "clutch"
+      - "gg"
+      - "rage"
+      - "win"
+      - "lose"
+    triggers:
+      - pattern: "clutch"
+        type: "clutch"
+        bonus: 0.5
+      - pattern: "headshot"
+        type: "skill"
+        bonus: 0.5
+    extra_hashtags:
+      - "#gaming"
+      - "#gamer"
